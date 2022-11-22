@@ -15,6 +15,6 @@ def PrimeGenerator(many):
     for p in prim:
         textdoc.write("No." + str(prim.index(p)+1) + "   " + str(p) + "\n")
 
-PrimeGenerator(10000)
+PrimeGenerator(100000000)
 
 textdoc.close()
